@@ -86,7 +86,7 @@ body {
   font-size: 1.2rem;
   cursor: pointer;
   white-space: nowrap;
-  transition: transfom 1s, box-shadow 1s, background 1s;
+  transition: transform 1s, box-shadow 1s, background 1s;
 }
 
 .input-row button:hover {
