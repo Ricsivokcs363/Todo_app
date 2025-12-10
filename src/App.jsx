@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 
+const STORAGE_KEY = 'todos-react'
+
 function App() {
   // szűrő belső állapota
   const [filter, setFilter] = useState('all') // all vagy active vagy completed
